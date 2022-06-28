@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid helper</title>
+    <style>
+        * {
+            /* align-self: center; */
+            text-align: center;
+            /* margin-right: 100px; */
+            /* margin-left: 150px; */
+            margin-top: 10px;
+            /* margin: 10; */
+            padding: 0.2%;
+        }
+        body{
+            background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-beautiful-technology-website-business-poster-background-template-image_148436.jpg);
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body >
+    <div>
+        <h1>hellp</h1>
+        <h1>{{session['login']}}</h1>
+        <h1>{{session['user']}}</h1>
+    </div>
+
+    <form action="">
+        <label for="na">
+            please enter your name
+
+        </label>
+        <br>
+        <input type="text" name="na">
+
+
+        <br>
+        <label for="sp">your age</label> <br>
+        <input type="text" name="sp"><br><br>
+        <button type="button">submit here</button>
+    </form>
+    <label for="ak" style="padding: 100px ; color: rgb(12, 0, 0) ;"> <h1>this are istuctions. Follow them to protect in covid </h1></label>
+    <br>
+
+    <audio class="ak" name="ak" controls loop>
+        <source src="ak.mp3" type="audio/mpeg" />
+    </audio>
+
+
+</body>
+
+</html>
